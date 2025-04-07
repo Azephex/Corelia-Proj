@@ -1,0 +1,147 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 773px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 355px;
+  height: 193px;
+  margin: 93px auto 0;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-layout-cell-1 {
+  min-height: 457px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 62px auto 0 30px;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 15px 30px 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 93px 436px 0 auto;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: -46px 30px 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 693px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 22px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: 101px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 377px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 314px;
+    margin-left: 157px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
+    margin-left: 647px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 416px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 47px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: 76px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 178px;
+    margin-left: 48px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: 535px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    margin-top: 72px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: 51px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: -42px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: 445px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 408px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 185px;
+    margin-top: 159px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: -28px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-left: 245px;
+  }
+}

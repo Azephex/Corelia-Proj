@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Project" />
+  <meta name="keywords" content="HTML5, tasks, Technology" />
+  <meta name="author" content="Andres Meneses"  />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CLarinetists Pieces</title>
+  <link href= "styles/stylehc.css" rel="stylesheet"/>
+</head>
+<body>
+   <header>
+    <div class="header">
+        
+        <a href="index.html" class="logo"><img src="styles/images/logo.png"></a>
+        <div class="header-right">
+        <a href="index.html">Home</a> 
+
+    </div>
+    </div>
+    </header>
+    <main class="main">
+
+            <article class="menu1">
+                <div class="columnleft">
+                    <img class="inst" src="images/i1.png">
+                    <img class="inst" src="images/i2.png">
+                    <img class="inst" src="images/i3.png">
+                    <img class="inst" src="images/i4.png">
+                    <img class="inst" src="images/i5.png">
+                    <img class="inst" src="images/i6.png">
+                    <img class="inst" src="images/i7.png">
+                    <img class="inst" src="images/i8.png">
+                    <img class="inst" src="images/i9.png">
+                    <img class="inst" src="images/i10.png">
+        </div>
+        <div class="columnright">
+        <div class="search">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Composer.." title="Type in a composer">
+        </div>
+      
+        <div class="cards">
+
+            <div id="root"></div>
+            <script src="scripts.js"></script>
+    
+</div>
+</div>
+            </article>
+
+
+    </main>
+      
+    <footer class="fot">
+        <p>Project</p>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var input, filter, h1, p, p1, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            root = document.getElementById("root");
+            h1 = h1.getElementsByTagName("h1");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+        </script>
+</body>
+</html>
